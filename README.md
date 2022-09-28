@@ -1,11 +1,14 @@
 # Repositório para Estudo de IaC Tools e K8S
 
-## Pré requisitos (Maquina Ubuntu):
+Fork do projeto: https://github.com/pmmenezes/Iac_k8s
+
+## Pré requisitos (Maquina local Ubuntu):
 
 1. Instalar o packer localmente seguindo o link: https://learn.hashicorp.com/tutorials/packer/get-started-install-cli;
-2. Instalar o ansible localmente seguindo o link: https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html;
-3. Instalar o Python3 e a lib boto3: `sudo apt-get install python3-pip -y && sudo pip3 install boto boto3`
-4. Criar arquivo na raiz awscredentials com as credenciais da AWS;
+2. Instalar o terraform localmente seguindo o link: https://learn.hashicorp.com/tutorials/terraform/install-cli
+3. Instalar o ansible localmente seguindo o link: https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html;
+4. Instalar o Python3 e a lib boto3: `sudo apt-get install python3-pip -y && sudo pip3 install boto boto3`
+5. Criar arquivo na raiz awscredentials com as credenciais da AWS;
 
 ## Tools usadas
 
